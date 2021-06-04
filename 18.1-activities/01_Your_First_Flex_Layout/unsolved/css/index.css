@@ -1,0 +1,24 @@
+.flex_item {
+  padding:10px;
+  margin: 10px;
+  background-color: orange;
+  color: white;
+  height: 230px;
+  background: url ("images/jakes-logo.png") no-repeat center;
+
+}
+
+.flex {
+  
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+}
+#column {
+  background-color: #E6F5FF;
+  flex-direction: column;
+}
+#row {
+  background-color: #FFF7DE;
+  flex-direction: row;
+}
