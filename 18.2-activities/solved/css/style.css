@@ -70,8 +70,7 @@ body {
   grid-template-areas:
   "bookcases bedroom patio"
   "couches couches patio"
-  "desks desks desks"
-  ;
+  "desks desks desks";
 }
 
 #bookcases {
