@@ -78,6 +78,14 @@ Left: 995px;
   top: 147px;
   border: 1px solid #2cbbc0;
 }
+.horizontalLine2{
+  position: absolute;
+  width: 1350px;
+  height: 0px;
+  left: -5px;
+  top: 5575px;
+  border: 0.25px solid white;
+}
 .bianca{
   display: inline-block;
   position: absolute;
@@ -224,13 +232,13 @@ Left: 995px;
  .myquote{
   height: 128px;
   width: 1135px;
-  left: 180px;
-  top: 5917px;
+  left: 170px;
+  top: 5660px;
   color: white;
   position: absolute;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 10px;
   text-align: center;
   letter-spacing: 1.25px;
   position: absolute;
@@ -240,28 +248,31 @@ Left: 995px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-style: normal;
   margin-right: auto;
+  padding-block-start: none;
+  margin-bottom: none;
  }
  .copyright{
  width: 1395px;
  height: 24px;
- left: 663px;
- top: 6033px;
+ left: 653px;
+ top: 5720px;
  font-weight: 500;
  font-size: 12px;
- line-height: 24px;
+ line-height: 0px;
  letter-spacing: 0.15px;
  color: white;
  position: absolute;
  margin-left: -630px;
  margin-right: center;
- position: absolute;
  align-items: center;
  text-align: center;
  align-content: center;
  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
  font-style: normal;
+ padding-bottom: 0px;
+ margin-bottom: 0px;
  }
- .facebook{
+ /*.facebook{
   left: 48.06%;
   right: 50.21%;
   top: 98.19%;
@@ -286,7 +297,7 @@ Left: 995px;
   border-radius: 0px;
   margin-right: auto;
   color: white;
- }
+ }*/
  .grid-container{
   position: absolute;
   width: 1458px;
@@ -526,7 +537,7 @@ Left: 995px;
   left: 12%;
   right: 88.47%;
   top: 5400px;
-  left: 75px;
+  left: 125px;
 }
 .icon2{
   position: absolute;
@@ -534,7 +545,15 @@ Left: 995px;
   left: 12%;
   right: 88.47%;
   top: 5415px;
-  left: 440px;
+  left: 610px;
+}
+.icon3{
+  position: absolute;
+  bottom: 440px;
+  left: 12%;
+  right: 88.47%;
+  top: 5415px;
+  left: 1165px;
 }
 .inline{
   display: inline-block;
@@ -550,7 +569,7 @@ Left: 995px;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.15px;
-  left: 130px;
+  left: 180px;
 }
 .inline2{
   display: inline-block;
@@ -566,8 +585,23 @@ Left: 995px;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.15px;
-  left: 500px;
-
+  left: 670px;
+}
+.inline3{
+  display: inline-block;
+  color: white;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: absolute;
+  width: 41px;
+  height: 24px;
+  /*left: 92px;*/
+  top: 5400px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  left: 1220px;
 }
  .number{
   color: white;
@@ -586,6 +620,12 @@ Left: 995px;
   line-height: 10px;
   letter-spacing: 0.15px;
   left: 500px;
+ }
+ .ig{
+  line-height: 10px;
+  letter-spacing: 0.15px;
+  left: 500px;
+
  }
   @media only screen and (max-width: 800px) {
   flex-containter {flex-direction: column;}
